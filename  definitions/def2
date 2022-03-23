@@ -1,0 +1,5 @@
+ def display_info(company, vehicle=None, **kwargs):
+     print(f'company name:{company}')
+     if 'price' in kwargs:
+          print(f"price:${kwargs['price']}")
+          display_info(company='cd project',price=100)

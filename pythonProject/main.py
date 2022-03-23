@@ -1,0 +1,12 @@
+some_string= 'hello_world'
+print('testing a string')
+print('_' *20)
+print('some_string', some_string)
+print("some_string.startswith('H')", some_string.startswith('H'))
+print("some_string.startswith('h')",some_string.startswith('h'))
+print("some_string.endswith('d')", some_string.endswith('d'))
+print('some_string.istitle()',some_string.istitle())
+print('some_string.isupper()',some_string.isupper())
+print('hello john')
+distance=input("enter distance in kilometers:")
+print('the start')
